@@ -16,11 +16,85 @@
 --primary-text: #0B0B0B;
 
 }
-
 body{
     font-family: 'Noto Sans', sans-serif;
 }
-
 .debug{
     border: 1px solid black;
 }
+
+ul{
+    list-style: none;
+}
+
+h1, p{
+    padding-bottom: 2rem;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* button setting */
+button{
+    padding: .7rem;
+    border: 0;
+    border-radius: 20px;
+}
+
+.blackB{
+    background-color: black;
+    color: white;
+    margin-left: 1rem;
+}
+
+.blueB{
+    background-color: var(--secondary-text);
+    color: white;
+}
+/* flex settings */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* header */
+/* nav config */
+.navmain{
+    background-color: var(--nav-bg);
+    padding-top: 1rem;
+
+}
+
+nav{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    color: white;
+    min-width: 50%;
+    justify-content: space-around;
+}
+/* //nav config */
+/* jumbo config */
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 40rem;
+    
+}
+
+.intro{
+    justify-content: center;
+    align-content: center;
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+
+/* //jumbo config */
