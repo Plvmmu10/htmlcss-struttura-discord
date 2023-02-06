@@ -124,6 +124,11 @@ nav{
 .image{
     min-width: 45%;
 }
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 .description{
     width: 30%;
     text-align: left;
