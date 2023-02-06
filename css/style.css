@@ -46,6 +46,7 @@ h1, p{
 
 h2{
     font-size: 3rem;
+    padding-bottom: 2rem;
 }
 
 h2>p{
@@ -90,7 +91,7 @@ nav{
 
 .info{
     color: white;
-    width: 50%;
+    width: 60%;
     justify-content: space-around;
 }
 /* //nav config */
@@ -116,16 +117,32 @@ nav{
 /* section config */
 
 .section{
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
     align-items: center;
     min-height: 40rem;
 }
 .image{
-    min-width: 60%;
+    min-width: 45%;
 }
 .description{
-    width: 40%;
+    width: 30%;
     text-align: left;
+    
 }
 
+.reverse{
+    flex-flow: row-reverse;
+}
+
+.sectionB{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.descriptionB{
+    min-width: 75%;
+}
+
+.imageB{
+    min-width: 100%;
+}
