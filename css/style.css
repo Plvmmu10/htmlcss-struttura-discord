@@ -148,8 +148,28 @@ nav{
     min-width: 100%;
 }
 
+.download-section{
+    text-align: center;
+    padding: 5rem;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.readytostart{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.download-section button{
+    margin-top: 2rem;
+}
 /* footer config */
 
 footer{
     background-color: var(--footer-bg);
 }
+
+
