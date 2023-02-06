@@ -36,6 +36,21 @@ h1, p{
     margin: 0 auto;
 }
 
+.odd{
+    background-color: var(--odd-bg);
+}
+
+.even{
+    background-color: var(--even-bg)
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h2>p{
+    font-size: .5em;
+}
 /* button setting */
 button{
     padding: .7rem;
@@ -65,7 +80,6 @@ button{
 .navmain{
     background-color: var(--nav-bg);
     padding-top: 1rem;
-
 }
 
 nav{
@@ -76,7 +90,7 @@ nav{
 
 .info{
     color: white;
-    min-width: 50%;
+    width: 50%;
     justify-content: space-around;
 }
 /* //nav config */
@@ -85,7 +99,7 @@ nav{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    min-height: 40rem;
+    min-height:40rem;
     
 }
 
@@ -98,3 +112,20 @@ nav{
 }
 
 /* //jumbo config */
+
+/* section config */
+
+.section{
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    min-height: 40rem;
+}
+.image{
+    min-width: 60%;
+}
+.description{
+    width: 40%;
+    text-align: left;
+}
+
