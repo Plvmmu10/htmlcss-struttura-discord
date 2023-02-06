@@ -45,7 +45,7 @@ h1, p{
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 
@@ -127,7 +127,7 @@ nav{
 .description{
     width: 30%;
     text-align: left;
-    
+    color: var(--primary-text);
 }
 
 .reverse{
@@ -141,8 +141,15 @@ nav{
 
 .descriptionB{
     min-width: 75%;
+    color: var(--primary-text);
 }
 
 .imageB{
     min-width: 100%;
+}
+
+/* footer config */
+
+footer{
+    background-color: var(--footer-bg);
 }
