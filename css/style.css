@@ -172,4 +172,20 @@ footer{
     background-color: var(--footer-bg);
 }
 
+.top-footer{
+    justify-content: space-between;
+}
 
+.slogan{
+    color: var(--secondary-text);
+}
+
+.social{
+    color: white;
+}
+
+.bottom-footer{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
