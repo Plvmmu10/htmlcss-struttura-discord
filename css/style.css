@@ -7,7 +7,6 @@
 }
 
 :root{
-    /* Color styles */
 --footer-bg: #23272A;
 --nav-bg: #255EE9;
 --even-bg: #F6F6F6;
@@ -41,7 +40,7 @@ h1, p{
 }
 
 .even{
-    background-color: var(--even-bg)
+    background-color: var(--even-bg);
 }
 
 h2{
@@ -58,7 +57,17 @@ nav a{
     text-decoration: none;
 }
 
+/* hover setting */
 
+.info li :hover{
+    text-decoration: underline;
+}
+
+.listHead ul :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* //hover settings */
 
 /* button setting */
 
@@ -232,7 +241,7 @@ footer{
 }
 
 .listHead li{
-    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .listHead span{
