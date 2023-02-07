@@ -45,7 +45,7 @@ h1, p{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -57,6 +57,7 @@ nav a{
     color: white;
     text-decoration: none;
 }
+
 /* button setting */
 button{
     padding: .7rem;
@@ -90,14 +91,14 @@ button{
 
 nav{
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .info{
     color: white;
-    width: 60%;
-    justify-content: space-around;
+    width: 50%;
+    justify-content: space-between;
 }
 /* //nav config */
 /* jumbo config */
@@ -105,7 +106,7 @@ nav{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    min-height:40rem;
+    min-height:37rem;
     
 }
 
@@ -184,18 +185,39 @@ footer{
 
 .top-footer{
     justify-content: space-between;
+    color: white;
+    padding-top: 5rem;
+}
+
+.bottom-credit{
+    min-width: 30%;
 }
 
 .slogan{
     color: var(--secondary-text);
 }
 
-.social{
-    color: white;
+.list-main{
+    justify-content: space-between;
+    min-width: 70%;
 }
 
-.bottom-footer{
+.listHead li{
+    padding-bottom: 1rem;
+}
+
+.listHead span{
+    color: var(--secondary-text);
+    font-weight: bold;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid var(--secondary-text);
+}
+
+.bottom-foot{
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+    align-items: center;
+    padding-bottom: 5rem;
 }
